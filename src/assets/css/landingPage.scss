@@ -1,0 +1,17 @@
+@import "assets/css/variable";
+
+.content__blog {
+    background: $Color2;
+    color: $Color1;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+        background: $Color3;
+        color: $Color4;
+        transform: scale(1.1);
+    }
+
+    .content__blog--saveIcon, .content__blog--delIcon, .content__blog--editIcon{
+        cursor: pointer;
+    }
+}
